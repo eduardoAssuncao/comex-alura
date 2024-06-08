@@ -11,7 +11,6 @@ public class ClienteTest {
     private final static ClienteService clienteService = new ClienteService();
     private static Scanner sc = new Scanner(System.in).useDelimiter("\n");
     public static void main(String[] args) {
-        //TODO: Adicionar interação por meio do Scanner
 
         System.out.println("Bom dia! Tudo bem? Espero que sim");
         var opcao = exibirMenu();
